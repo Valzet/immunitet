@@ -1,0 +1,62 @@
+.main {
+    padding: 96px 64px;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+}
+
+.main-text {
+    position: relative;
+    z-index: 2;
+
+}
+
+.main-text__title {
+    margin: 0;
+    color: #fff;
+    font-size: 144px;
+    font-weight: 700;
+    line-height: 152px;
+    max-width: 1008px;
+
+}
+
+.main-text__subtitle {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 672px;
+    padding-top: 24px;
+
+}
+
+.main-img {
+    position: absolute;
+    right: 46px;
+    top: 15px;
+    z-index: 1;
+}
+
+
+.main-subtitle {
+    padding-top: 120px;
+
+}
+
+.main-subtitle__title {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+
+}
+
+.main-subtitle__subtitle {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    padding-top: 16px;
+    max-width: 416px;
+
+}

@@ -1,0 +1,96 @@
+.discount {
+    padding: 112px 0;
+    background-color: #111;
+}
+
+.discount-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57px;
+    text-align: center;
+    color: white;
+
+}
+
+.discount__title_type_orange {
+    color: #FCB500;
+}
+
+.discount__price {
+    font-size: 48px;
+    line-height: 57px;
+    flex-direction: row;
+    display: flex;
+    padding-top: 85px;
+
+}
+
+.discount__price_type_before {
+    padding-right: 12px;
+    color: #ADADAD;
+
+}
+
+.discount__price_type_after {
+    color: white;
+    margin: 0;
+}
+
+
+.futures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1088px;
+    padding-top: 60px;
+    color: white;
+    text-align: center;
+}
+
+.futures__title {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin: 0;
+    padding-top: 78px;
+}
+
+.futures__title_type_orange {
+    color: #FCB500;
+
+}
+
+.futures__title_type_active {
+    padding-top: 45px;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.futures__title_type_active-subtitle {
+    font-size: 24px;
+    color: #FCB500;
+    line-height: 28px;
+
+}
+
+
+.delivery-button {
+    background-color: #FCB500;
+    border-radius: 7px;
+    padding: 16px 32px;
+    margin: 64px auto 112px;
+
+}
+
+.delivery-button__link {
+    font-size: 18px;
+    line-height: 21px;
+}
